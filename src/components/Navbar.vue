@@ -52,16 +52,16 @@ export default {
 <style scoped lang="scss">
 @import "../assets/scss/variables.scss";
 
+  nav {
+    height: 56px;
+    background-color: $brand-primary;
+  } 
   .container {
     height: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
-  nav {
-    height: 56px;
-    background-color: $brand-primary;
-  } 
   .logo {
     height: 20px;
   } 
@@ -91,6 +91,7 @@ export default {
     border-radius: 5px;
     box-shadow: 1px 3px 10px rgba(0, 0, 0, .2);
     color: $brand-secondary;
+    background-color: $brand-primary;
     &:hover {
       color: #fff;
       background-color: $brand-secondary;
@@ -98,9 +99,10 @@ export default {
     &:first-child {
       color: #8492A6;
       box-shadow: none;
+      background-color: transparent;
       &:hover {
         color: #3C4858;
-        background-color: $brand-primary; 
+        background-color: transparent; 
       }
     }
   }
