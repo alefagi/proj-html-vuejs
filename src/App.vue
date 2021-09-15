@@ -7,6 +7,7 @@
     </header>
     <main>
       <Features />
+      <Quickstart />
     </main>
     <footer></footer>
   </div>
@@ -17,6 +18,8 @@ import Navbar from './components/Navbar.vue';
 import Jumbotron from './components/Jumbotron.vue';
 import Partners from './components/Partners.vue';
 import Features from './components/Features.vue';
+import Quickstart from './components/Quickstart.vue';
+
 
 export default {
   name: 'App',
@@ -25,6 +28,7 @@ export default {
     Jumbotron,
     Partners,
     Features,
+    Quickstart,
   },
   data() {
     return {

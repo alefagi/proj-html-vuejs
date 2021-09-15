@@ -38,6 +38,10 @@ export default {
     align-items: center;
   }
 
+  h1 {
+    color: black;
+  }
+
   .jumbo-description div {
     color: $text-primary;
     margin: 30px 0;
