@@ -58,8 +58,9 @@ export default {
 
   .container {
     display: flex;
+    justify-content: space-between;
     &>* {
-      width: calc(100% / 3);
+      width: 30%;
     }
   }
 
@@ -103,6 +104,7 @@ export default {
   }
 
   .newsletter {
+    width: 30%;
     span:first-child {
       color: #E43F52;
     }
