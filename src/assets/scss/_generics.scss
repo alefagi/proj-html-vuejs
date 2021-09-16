@@ -22,7 +22,7 @@ img {
 }
 
 .btn-primary {
-  padding: 5px 10px;
+  padding: 7px 12px;
   color: #fff;
   background-color: $brand-secondary;
   border: 1px solid $brand-secondary;
@@ -30,9 +30,16 @@ img {
 }
 
 .btn-secondary {
-  padding: 5px 10px;
+  padding: 7px 12px;
   color: $brand-secondary;
   background-color: transparent;
   border: 1px solid $brand-secondary;
   border-radius: 5px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 70px;
 }

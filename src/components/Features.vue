@@ -54,17 +54,10 @@ export default {
 @import "../assets/scss/sectionTitle.scss";
 
   #features {
-    margin-top: 60px;
+    margin-top: 80px;
   }
 
   .container {
     height: 100%;
-  }
-
-  .card-container {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    padding-top: 70px;
   }
 </style>

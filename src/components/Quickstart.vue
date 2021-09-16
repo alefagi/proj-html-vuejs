@@ -7,10 +7,19 @@
         <div>Start working with <a href="#">Landrick</a> that can provide everything you need to generate awareness, drive traffic, connect.</div>
       </div>
       <div class="shell">
-        <div>npm</div>
-        <div>nuget</div>
-        <div>spm</div>
-        <div>github</div>
+        <div class="packet-manager">
+          <div>npm</div>
+          <div>nuget</div>
+          <div>spm</div>
+          <div>github</div>
+        </div>
+        <div class="commands">
+          <span>$</span> npm install <span>-g</span> claps.js
+        </div>
+      </div>
+      <div class="solutions">
+        <span><i class="far fa-check-circle"></i>Organize your data</span>
+        <span><i class="far fa-check-circle"></i>Work with any team</span>
       </div>
     </div>
   </section>
@@ -39,23 +48,46 @@ name: 'Quickstart',
     width: 50%;
     margin: 0 auto;
     margin-top: 60px;
-    display: flex;
     height: 100px;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #27314F;    
+  }
+
+  .packet-manager {
+    display: flex;
     background-color: #27314F;
     border-radius: 5px;
-    color: white;
-    padding: 20px;
     div {
       width: 25%;
       height: 40px;
       background-color: #3C4858;
-      border-radius: 5px;
+      color: white;
       text-align: center;
-      line-height: 40px;
+      line-height: 38px;
+      border: 2px solid #3C4858;
       &:first-child {
         background-color: #27314F;
-        border: 2px solid #3C4858;
-        line-height: 38px;
+      }
+    }
+  }
+
+  .commands {
+    padding-top: 15px;
+    span {
+      color: #2ECA8B;
+    }
+  }
+
+  .solutions {
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 20px;
+    span {
+      margin-right: 40px;
+      i {
+        color: #2ECA8B;
+        margin-right: 8px;
       }
     }
   }

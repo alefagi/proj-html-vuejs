@@ -1,5 +1,5 @@
 <template>
-  <div class="card">
+  <div class="features-card">
     <div class="card-icon">
       <i :class="iconClass"></i>
     </div>
@@ -23,7 +23,7 @@ export default {
 <style scoped lang="scss">
 @import "../assets/scss/variables.scss";
 
-  .card {
+  .features-card {
     width: 23%;
     border: 1px solid $border-primary;
     border-radius: 5px;
@@ -56,7 +56,7 @@ export default {
     color: $text-primary;
   }
 
-  .card > * {
+  .features-card > * {
     margin-bottom: 15px;
   }
 

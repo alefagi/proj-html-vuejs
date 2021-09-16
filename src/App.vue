@@ -8,6 +8,8 @@
     <main>
       <Features />
       <Quickstart />
+      <Components />
+      <Rates />
     </main>
     <footer></footer>
   </div>
@@ -19,7 +21,8 @@ import Jumbotron from './components/Jumbotron.vue';
 import Partners from './components/Partners.vue';
 import Features from './components/Features.vue';
 import Quickstart from './components/Quickstart.vue';
-
+import Components from './components/Components.vue';
+import Rates from './components/Rates.vue';
 
 export default {
   name: 'App',
@@ -29,6 +32,8 @@ export default {
     Partners,
     Features,
     Quickstart,
+    Components,
+    Rates,
   },
   data() {
     return {
