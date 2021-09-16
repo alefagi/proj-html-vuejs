@@ -6,7 +6,7 @@
         <div>Start working with <a href="#">Landrick</a> that can provide everything you need to generate awareness, drive traffic, connect.</div>
       </div>
       <div class="e-mail w-50">
-        <input type="email" placeholder="Email Address">
+        <input type="email" size="60" placeholder="Email Address">
         <button class="btn-primary">Get Started</button>
       </div>
     </div>
@@ -34,17 +34,21 @@ export default {
 
   .e-mail {
     margin: 0 auto;
+    margin-top: 30px;
     display: flex;
     border: 1px solid $border-primary;
     border-radius: 50px;
     padding: 4px;
+    justify-content: space-between;
     input {
       border: none;
       margin-left: 20px;
+      outline: none;  
+      width: auto;    
     }
     button {
       border-radius: 50px;
-      
+      justify-self: flex-end;
     }
   }
 
