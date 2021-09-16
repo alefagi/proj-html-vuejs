@@ -6,7 +6,7 @@
         <div>Start working with <a href="#">Landrick</a> that can provide everything you need to generate awareness, drive traffic, connect.</div>
       </div>
       <div class="card-container">
-        <FeaturesCard v-for="(card, index) in cardList" :key="index" :iconClass="card.iconClass" :title="card.title" :text="card.text" />
+        <FeaturesCard v-for="(card, index) in cardList" :key="index" :card="card" />
       </div>
     </div>
   </section>

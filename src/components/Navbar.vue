@@ -24,27 +24,8 @@
 <script>
 export default {
   name: 'Navbar',
-  data() {
-    return {
-      navItems: [
-        {
-          text: 'home',
-          url: '#',
-        },
-        {
-          text: 'landing',
-          url: '#',
-        },
-        {
-          text: 'pages',
-          url: '#',
-        },
-        {
-          text: 'docs',
-          url: '#',
-        }
-      ],
-    }
+  props: {
+    navItems: Array,
   }
 }
 </script>

@@ -1,10 +1,10 @@
 <template>
   <div class="features-card">
     <div class="card-icon">
-      <i :class="iconClass"></i>
+      <i :class="card.iconClass"></i>
     </div>
-    <h5>{{ title }}</h5>
-    <div class="card-text">{{ text }}</div>
+    <h5>{{ card.title }}</h5>
+    <div class="card-text">{{ card.text }}</div>
     <a href="#">Read More <i class="fas fa-angle-right"></i></a>
   </div>
 </template>
@@ -13,9 +13,7 @@
 export default {
   name: 'FeaturesCard',
   props: {
-    iconClass: String,
-    title: String,
-    text: String,
+    card: Object,
   },
 }
 </script>
