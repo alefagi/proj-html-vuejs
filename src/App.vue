@@ -12,7 +12,10 @@
       <Rates />
       <Subscribe />
     </main>
-    <footer></footer>
+    <footer>
+      <FooterTop :footerLinks="footerLinks"/>
+      <FooterBottom />
+    </footer>
   </div>
 </template>
 
@@ -25,6 +28,9 @@ import Quickstart from './components/Quickstart.vue';
 import Components from './components/Components.vue';
 import Rates from './components/Rates.vue';
 import Subscribe from './components/Subscribe.vue';
+import FooterTop from './components/FooterTop.vue';
+import FooterBottom from './components/FooterBottom.vue';
+
 
 export default {
   name: 'App',
@@ -37,6 +43,8 @@ export default {
     Components,
     Rates,
     Subscribe,
+    FooterTop,
+    FooterBottom,
   },
   data() {
     return {
@@ -57,6 +65,70 @@ export default {
           text: 'docs',
           url: '#',
         }
+      ],
+      footerLinks: [
+        {
+          title: 'Company',
+          links: [
+            {
+              text: 'About us',
+              url: '#',
+            },
+            {
+              text: 'Services',
+              url: '#',
+            },
+            {
+              text: 'Team',
+              url: '#',
+            },
+            {
+              text: 'Pricing',
+              url: '#',
+            },
+            {
+              text: 'Project',
+              url: '#',
+            },
+            {
+              text: 'Careers',
+              url: '#',
+            },
+            {
+              text: 'Blog',
+              url: '#',
+            },
+            {
+              text: 'Login',
+              url: '#',
+            }
+          ]
+        },
+        {
+          title: 'Usefull Links',
+          links: [
+            {
+              text: 'Terms of Services',
+              url: '#',
+            },
+            {
+              text: 'Privacy Policy',
+              url: '#',
+            },
+            {
+              text: 'Documentation',
+              url: '#',
+            },
+            {
+              text: 'Changelog',
+              url: '#',
+            },
+            {
+              text: 'Components',
+              url: '#',
+            }
+          ]
+        },
       ],
     }
   }

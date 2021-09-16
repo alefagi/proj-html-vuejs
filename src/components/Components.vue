@@ -11,7 +11,7 @@
           <li><i class="far fa-check-circle"></i>Our Talented & Experienced Marketing Agency</li>
           <li><i class="far fa-check-circle"></i>Create your own skin to match your brand</li>
         </ul>
-        <button class="btn-primary">Read More<i class="fas fa-arrow-right"></i></button>
+        <button class="btn btn-primary">Read More<i class="fas fa-arrow-right"></i></button>
       </div>
       <div class="components-image w-50">
         <img src="../assets/img/1.png" alt="1">

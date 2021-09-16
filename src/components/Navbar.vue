@@ -43,9 +43,6 @@ export default {
     justify-content: space-between;
     align-items: center;
   }
-  .logo {
-    height: 20px;
-  } 
   ul {
     display: flex;
     li {
@@ -63,27 +60,32 @@ export default {
       }
     }
   }
-  .utils-icons a {
-    display: inline-block;
-    height: 35px;
-    width: 35px;
-    padding: 10px;
-    margin-left: 5px;
-    border-radius: 5px;
-    box-shadow: 1px 3px 10px rgba(0, 0, 0, .2);
-    color: $brand-secondary;
-    background-color: $brand-primary;
-    &:hover {
-      color: #fff;
-      background-color: $brand-secondary;
-    }
-    &:first-child {
-      color: #8492A6;
-      box-shadow: none;
-      background-color: transparent;
+  .utils-icons {
+    display: flex;
+    a {
+      display: flex;
+      text-decoration: none;
+      height: 35px;
+      width: 35px;
+      justify-content: center;
+      align-items: center;
+      margin-left: 5px;
+      border-radius: 5px;
+      box-shadow: 1px 3px 10px rgba(0, 0, 0, .2);
+      color: $brand-secondary;
+      background-color: $brand-primary;
       &:hover {
-        color: #3C4858;
-        background-color: transparent; 
+        color: #fff;
+        background-color: $brand-secondary;
+      }
+      &:first-child {
+        color: #8492A6;
+        box-shadow: none;
+        background-color: transparent;
+        &:hover {
+          color: #3C4858;
+          background-color: transparent; 
+        }
       }
     }
   }

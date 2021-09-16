@@ -11,7 +11,7 @@
         {{ detail}}
       </li>
     </ul>
-    <button class="btn-primary">{{ card.btnText }}</button>
+    <button class="btn btn-primary">{{ card.btnText }}</button>
     <span>{{ card.payment }}</span>
   </div>
 </template>

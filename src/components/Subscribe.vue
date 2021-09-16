@@ -7,7 +7,7 @@
       </div>
       <div class="e-mail w-50">
         <input type="email" size="60" placeholder="Email Address">
-        <button class="btn-primary">Get Started</button>
+        <button class="btn btn-primary">Get Started</button>
       </div>
     </div>
   </section>

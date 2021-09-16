@@ -21,20 +21,21 @@ img {
   width: 50%;
 }
 
-.btn-primary {
+.btn {
   padding: 7px 12px;
-  color: #fff;
-  background-color: $brand-secondary;
-  border: 1px solid $brand-secondary;
   border-radius: 5px;
 }
 
+.btn-primary {
+  color: #fff;
+  background-color: $brand-secondary;
+  border: 1px solid $brand-secondary;
+}
+
 .btn-secondary {
-  padding: 7px 12px;
   color: $brand-secondary;
   background-color: transparent;
   border: 1px solid $brand-secondary;
-  border-radius: 5px;
 }
 
 .card-container {
@@ -43,3 +44,7 @@ img {
   flex-wrap: wrap;
   padding-top: 70px;
 }
+
+.logo {
+  height: 20px;
+} 

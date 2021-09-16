@@ -5,8 +5,8 @@
         <div>Development</div>
         <h1>A Complete Developer Toolset</h1>
         <div>Launch your campaign and benefit from our expertise on designing and managing conversion centered bootstrap4 html page.</div>
-        <button class="btn-primary">Get Started</button>
-        <button class="btn-secondary">Documentation</button>
+        <button class="btn btn-primary">Get Started</button>
+        <button class="btn btn-secondary">Documentation</button>
         <div>Current Version: v2.6.0</div>
       </div>
       <div class="jumbo-image w-50">

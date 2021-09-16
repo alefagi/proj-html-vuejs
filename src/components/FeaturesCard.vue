@@ -5,7 +5,7 @@
     </div>
     <h5>{{ card.title }}</h5>
     <div class="card-text">{{ card.text }}</div>
-    <a href="#">Read More <i class="fas fa-angle-right"></i></a>
+    <a href="#">Read More<i class="fas fa-angle-right fa-sm"></i></a>
   </div>
 </template>
 
@@ -48,6 +48,9 @@ export default {
     text-decoration: none;
     color: $brand-secondary;
     font-weight: bold;
+    i {
+      padding-left: 8px;
+    }
   }
 
   .card-text {
