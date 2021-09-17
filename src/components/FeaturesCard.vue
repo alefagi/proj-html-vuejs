@@ -66,7 +66,6 @@ export default {
   }
 
   a {
-    text-decoration: none;
     color: $brand-primary;
     font-weight: bold;
     i {
@@ -81,5 +80,4 @@ export default {
   .features-card > * {
     margin-bottom: 15px;
   }
-
 </style>

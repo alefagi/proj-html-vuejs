@@ -30,6 +30,7 @@ export default {
     background-color: #202942;
     border-top: 1px solid #3C4858;
     position: relative;
+    height: 70px;
     &>a {
       position: fixed;
       right: .5%;
@@ -40,7 +41,6 @@ export default {
       color: $text-primary;
       background-color: $brand-primary;
       border-radius: 5px;
-      text-decoration: none;
       justify-content: center;
       align-items: center;
       color: white;  
@@ -51,7 +51,6 @@ export default {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 70px;
   }
 
   .credits span {
@@ -63,5 +62,4 @@ export default {
       margin-left: 5px;
     }
   }
-
 </style>

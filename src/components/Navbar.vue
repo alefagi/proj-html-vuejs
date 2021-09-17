@@ -37,22 +37,21 @@ export default {
     height: 56px;
     background-color: $brand-secondary;
   } 
+
   .container {
-    height: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
+
   ul {
     display: flex;
     li {
-      list-style-type: none;
       text-transform: uppercase;
       font-size: 0.8rem;
       font-weight: bold;
       padding-bottom: 0;
       a {
-        text-decoration: none;
         color: #3C4858;
         padding: 20px 20px;
         transition: .3s;
@@ -62,11 +61,11 @@ export default {
       }
     }
   }
+
   .utils-icons {
     display: flex;
     a {
       display: flex;
-      text-decoration: none;
       height: 35px;
       width: 35px;
       justify-content: center;
@@ -92,6 +91,4 @@ export default {
       }
     }
   }
-
-
 </style>

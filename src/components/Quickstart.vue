@@ -33,7 +33,6 @@ name: 'Quickstart',
 
 <style scoped lang="scss">
 @import "../assets/scss/variables.scss";
-@import "../assets/scss/sectionTitle.scss";
 
   .section-title {
     margin: 0 auto;
@@ -45,25 +44,26 @@ name: 'Quickstart',
     margin: 0 auto;
     margin-top: 60px;
     height: 100px;
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 20px;
     background-color: #27314F;    
   }
 
   .packet-manager {
     display: flex;
-    background-color: #27314F;
-    border-radius: 5px;
+    background-color: #3C4858;
+    border-radius: 10px;
+    overflow: hidden;
     div {
       width: 25%;
       height: 40px;
-      background-color: #3C4858;
       color: white;
       text-align: center;
       line-height: 38px;
       border: 2px solid #3C4858;
       &:first-child {
         background-color: #27314F;
+        border-radius: 10px;
       }
     }
   }

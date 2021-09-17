@@ -76,12 +76,9 @@ export default {
 
 <style scoped lang="scss">
 @import "../assets/scss/variables.scss";
-@import "../assets/scss/sectionTitle.scss";
 
   .section-title {
     margin: 0 auto;
     text-align: center;
   }
-
-
 </style>

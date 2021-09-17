@@ -1,5 +1,5 @@
 <template>
-  <section id="footer-top" class="mt-80">
+  <section id="footer-top">
     <div class="container">
       <div class="social">
         <div class="logo">
@@ -72,24 +72,19 @@ export default {
     margin-bottom: 20px;
   }
 
-  ul {
-    li {
-      list-style-type: none;
-      a {
-        text-decoration: none;
-        color: $text-primary;
-        i {
-          padding-right: 8px;
-        }
+  li {
+    a {
+      color: $text-primary;
+      i {
+        padding-right: 8px;
       }
     }
-  }
+  }  
 
   .social-icons {
     display: flex;
     a {
       display: flex;
-      text-decoration: none;
       justify-content: center;
       align-items: center;
       height: 25px;
@@ -102,8 +97,12 @@ export default {
     }
   }
 
+  .social {
+    width: 25%;
+  }
+
   .newsletter {
-    width: 30%;
+    width: 25%;
     span:first-child {
       color: #E43F52;
     }
@@ -149,8 +148,8 @@ export default {
   }
   
   .links-container {
+    width: 40%;
     display: flex;
     justify-content: space-around;
   }
-
 </style>

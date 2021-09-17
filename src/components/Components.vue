@@ -28,7 +28,6 @@ export default {
 
 <style scoped lang="scss">
 @import "../assets/scss/variables.scss";
-@import "../assets/scss/sectionTitle.scss";
 
   .container {
     display: flex;    
@@ -38,14 +37,15 @@ export default {
     padding-top: 50px;
   }
 
+  h2 {
+    width: 40%;
+  }
+
   ul {
     padding: 20px 0;
-    li {
-      list-style-type: none;
-      i {
-        color: $brand-primary;
-        margin-right: 8px;
-      }
+    i {
+      color: $brand-primary;
+      margin-right: 8px;
     }
   }
 
@@ -59,8 +59,4 @@ export default {
       width: 80%;
     }
   }
-  
-
-
-
 </style>

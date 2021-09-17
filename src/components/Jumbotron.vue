@@ -4,7 +4,7 @@
     <div class="container">
       <div class="jumbo-description w-50">
         <div>Development</div>
-        <h1>A Complete<br/>Developer Toolset</h1>
+        <h1>A Complete Developer Toolset</h1>
         <div>Launch your campaign and benefit from our expertise on designing and managing conversion centered bootstrap4 html page.</div>
         <button class="btn btn-primary">Get Started</button>
         <button class="btn btn-secondary">Documentation</button>
@@ -48,7 +48,6 @@ export default {
   }
 
   .container {
-    height: 100%;
     display: flex;
     align-items: center;
   }
@@ -56,6 +55,7 @@ export default {
   h1 {
     color: black;
     font-size: 2rem;
+    width: 50%;
   }
 
   .jumbo-description {
@@ -75,10 +75,9 @@ export default {
         font-weight: bold;
       }
     }
-  }
-
-  .jumbo-description button {
-    margin-right: 10px;
+    button {
+      margin-right: 10px;
+    }
   }
 
   .jumbo-image  {

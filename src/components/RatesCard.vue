@@ -60,16 +60,11 @@ export default {
     font-weight: bold;
   }
 
-  ul {
-    li {
-      list-style-type: none;
-      i {
-        color: $brand-primary;
-        margin-right: 8px;
-      }
-    }
+  i {
+    color: $brand-primary;
+    margin-right: 8px;
   }
-
+    
   h5 {
     font-size: 2rem;
     color: black;
