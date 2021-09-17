@@ -30,7 +30,7 @@ export default {
 
   .rates-card {
     width: calc(100% / 3) - 2%;
-    height: 490px;
+    height: 515px;
     border: 1px solid $border-primary;
     border-radius: 10px;
     padding: 20px;
@@ -40,9 +40,9 @@ export default {
     box-shadow: 0 3px rgba(0, 0, 0, .4);
     transition: .3s;
     &:hover {
-      box-shadow: 0 3px $brand-secondary, 1px 0 20px rgba(0, 0, 0, .1), -1px 0 20px rgba(0, 0, 0, .1);
+      box-shadow: 0 3px $brand-primary, 1px 0 20px rgba(0, 0, 0, .1), -1px 0 20px rgba(0, 0, 0, .1);
       border: none;
-      height: 505px;
+      height: 530px;
       transform: translateY(-1%);
     }
     &>* {
@@ -53,17 +53,18 @@ export default {
   .card-plan {
     padding: 8px 15px;
     text-align: center;
-    color: $brand-secondary;
-    background-color: $brand-primary;
+    color: $brand-primary;
+    background-color: $brand-tertiary;
     border-radius: 50px;
     align-self: flex-start;
+    font-weight: bold;
   }
 
   ul {
     li {
       list-style-type: none;
       i {
-        color: $brand-secondary;
+        color: $brand-primary;
         margin-right: 8px;
       }
     }

@@ -46,9 +46,11 @@ export default {
 @import "../assets/scss/variables.scss";
 
   #partners {
-    background-color: $brand-primary;
-    border-top: 1px solid $border-primary;
-    height: 70px;
+    background-color: $brand-secondary;
+    border-top: 2px solid $border-primary;
+    height: 80px;
+    border-bottom-left-radius: 30%;
+    border-bottom-right-radius: 30%;
   }
 
   .container {
@@ -59,7 +61,7 @@ export default {
   }
 
   a {
-    height: 30%;
+    height: 25%;
     display: inline-block;
   }
 </style>

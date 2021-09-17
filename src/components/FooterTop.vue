@@ -32,7 +32,7 @@
           <span>Your email :</span>
           <input type="email" size="17">
         </div>
-        <button class="btn">Subscribe</button>
+        <button class="btn"><span>Subscribe</span></button>
       </div>
     </div>
   </section>
@@ -125,7 +125,7 @@ export default {
         margin-left: 5px;
         outline: none;
         background-color: #27314F;
-        color: $brand-secondary;
+        color: white;
       }
       i {
         margin-right: 12px;
@@ -134,13 +134,18 @@ export default {
     }
     button {
       border-radius: 5px;
-      color: $brand-secondary;
+      color: $brand-primary;
       padding: 14px 12px;
       background-color: #27314F;
       border: none;
       box-shadow: 1px 3px 10px rgba(233, 70, 73, .2);
       width: 100%;
     }
+  }
+
+  button span {
+    font-size: 1rem;
+    font-weight: bold;
   }
   
   .links-container {

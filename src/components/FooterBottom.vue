@@ -38,11 +38,12 @@ export default {
       width: 30px;
       height: 30px;
       color: $text-primary;
-      background-color: $brand-secondary;
+      background-color: $brand-primary;
       border-radius: 5px;
       text-decoration: none;
       justify-content: center;
-      align-items: center;  
+      align-items: center;
+      color: white;  
     }
   }
 

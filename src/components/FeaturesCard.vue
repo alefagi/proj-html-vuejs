@@ -1,5 +1,6 @@
 <template>
-  <div class="features-card">
+  <div class="features-card" @mouseover="hover = true" @mouseleave="hover = false">
+    <i v-if="hover" :class="card.iconClass"></i>
     <div class="card-icon">
       <i :class="card.iconClass"></i>
     </div>
@@ -15,6 +16,11 @@ export default {
   props: {
     card: Object,
   },
+  data() {
+    return {
+      hover: false,
+    }
+  }
 }
 </script>
 
@@ -28,8 +34,19 @@ export default {
     padding: 20px;
     margin-bottom: 20px;
     transition: .3s;
+    position: relative;
     &:hover {
       transform: translateY(-5%);
+    }
+    &>i {
+      display: inline-block;
+      position: absolute;
+      z-index: -1;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 200px;
+      color: $brand-tertiary;
+      opacity: .5;
     }
   }
 
@@ -39,8 +56,8 @@ export default {
     align-items: center;
     width: 50px;
     height: 50px;
-    background-color: $brand-primary;
-    color: $brand-secondary;
+    background-color: $brand-tertiary;
+    color: $brand-primary;
     border-radius: 5px;
   }
 
@@ -50,7 +67,7 @@ export default {
 
   a {
     text-decoration: none;
-    color: $brand-secondary;
+    color: $brand-primary;
     font-weight: bold;
     i {
       padding-left: 8px;

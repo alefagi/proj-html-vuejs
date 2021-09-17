@@ -7,6 +7,7 @@
 body {
   color: $text-primary;
   font-family: 'Nunito', sans-serif;
+  font-size: 0.9rem;
 }
 
 .container {
@@ -31,29 +32,30 @@ img {
 }
 
 .btn {
-  padding: 7px 12px;
+  padding: 8px 15px;
   border-radius: 5px;
   cursor: pointer;
+  font-weight: bold;
 }
 
 .btn-primary {
   color: #fff;
-  background-color: $brand-secondary;
-  border: 1px solid $brand-secondary;
+  background-color: $brand-primary;
+  border: 1px solid $brand-primary;
   transition: .3s;
   &:hover {
-    background-color: darken($brand-secondary, 13%);
+    background-color: darken($brand-primary, 13%);
   }
 }
 
 .btn-secondary {
-  color: $brand-secondary;
+  color: $brand-primary;
   background-color: transparent;
-  border: 1px solid $brand-secondary;
+  border: 1px solid $brand-primary;
   transition: .3s;
   &:hover {
     color: #fff;
-    background-color: $brand-secondary;
+    background-color: $brand-primary;
   }
 }
 
@@ -61,9 +63,13 @@ img {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  padding-top: 70px;
+  padding-top: 50px;
 }
 
 .logo {
   height: 20px;
 } 
+
+li {
+  padding-bottom: 5px;
+}

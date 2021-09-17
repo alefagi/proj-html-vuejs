@@ -43,7 +43,7 @@ export default {
     li {
       list-style-type: none;
       i {
-        color: $brand-secondary;
+        color: $brand-primary;
         margin-right: 8px;
       }
     }

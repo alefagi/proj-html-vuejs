@@ -35,7 +35,7 @@ export default {
 
   nav {
     height: 56px;
-    background-color: $brand-primary;
+    background-color: $brand-secondary;
   } 
   .container {
     height: 100%;
@@ -50,13 +50,14 @@ export default {
       text-transform: uppercase;
       font-size: 0.8rem;
       font-weight: bold;
+      padding-bottom: 0;
       a {
         text-decoration: none;
         color: #3C4858;
         padding: 20px 20px;
         transition: .3s;
         &:hover {
-          color: $brand-secondary;
+          color: $brand-primary;
         }
       }
     }
@@ -73,12 +74,12 @@ export default {
       margin-left: 5px;
       border-radius: 5px;
       box-shadow: 1px 3px 10px rgba(0, 0, 0, .2);
-      color: $brand-secondary;
-      background-color: $brand-primary;
+      color: $brand-primary;
+      background-color: $brand-tertiary;
       transition: .3s;
       &:hover {
         color: #fff;
-        background-color: $brand-secondary;
+        background-color: $brand-primary;
       }
       &:first-child {
         color: #8492A6;

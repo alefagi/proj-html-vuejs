@@ -4,7 +4,7 @@
     <div class="container">
       <div class="jumbo-description w-50">
         <div>Development</div>
-        <h1>A Complete Developer Toolset</h1>
+        <h1>A Complete<br/>Developer Toolset</h1>
         <div>Launch your campaign and benefit from our expertise on designing and managing conversion centered bootstrap4 html page.</div>
         <button class="btn btn-primary">Get Started</button>
         <button class="btn btn-secondary">Documentation</button>
@@ -27,13 +27,14 @@ export default {
 @import "../assets/scss/variables.scss";
 
   .jumbotron {
-    background-color: $brand-primary;
-    height: 500px;
+    background-color: $brand-secondary;
+    height: 600px;
     display: flex;
     align-items: center;
     position: relative;
+    padding: 70px 0;
     &>a {
-      color: $brand-secondary;
+      color: $brand-primary;
       width: 30px;
       height: 30px;
       padding: 7px;
@@ -47,26 +48,32 @@ export default {
   }
 
   .container {
-    height: 70%;
+    height: 100%;
     display: flex;
     align-items: center;
   }
 
   h1 {
     color: black;
+    font-size: 2rem;
   }
 
-  .jumbo-description div {
-    color: $text-primary;
-    margin: 30px 0;
-    &:first-child {
-      display: inline-block;
-      background-color: $brand-primary;
-      color: $brand-secondary;
-      padding: 4px 10px;
-      border: 1px solid $border-primary;
-      border-radius: 50px;
-      font-weight: bold;
+  .jumbo-description {
+    height: 100%;
+    padding-top: 60px;
+    div {
+      color: $text-primary;
+      margin: 30px 0;
+      &:first-child {
+        display: inline-block;
+        background-color: $brand-tertiary;
+        color: $brand-primary;
+        padding: 4px 10px;
+        border: 1px solid $border-primary;
+        border-radius: 50px;
+        font-size: 0.8rem;
+        font-weight: bold;
+      }
     }
   }
 
@@ -76,6 +83,6 @@ export default {
 
   .jumbo-image  {
     height: 100%;
-    text-align: center;
+    text-align: right;
   }
 </style>
