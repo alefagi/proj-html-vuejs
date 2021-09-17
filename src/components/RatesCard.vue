@@ -11,7 +11,7 @@
         {{ detail}}
       </li>
     </ul>
-    <button class="btn btn-primary">{{ card.btnText }}</button>
+    <button class="btn btn-secondary">{{ card.btnText }}</button>
     <span>{{ card.payment }}</span>
   </div>
 </template>
@@ -30,12 +30,21 @@ export default {
 
   .rates-card {
     width: calc(100% / 3) - 2%;
+    height: 490px;
     border: 1px solid $border-primary;
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 20px;
     margin-bottom: 20px;
     display: flex;
     flex-direction: column;
+    box-shadow: 0 3px rgba(0, 0, 0, .4);
+    transition: .3s;
+    &:hover {
+      box-shadow: 0 3px $brand-secondary, 1px 0 20px rgba(0, 0, 0, .1), -1px 0 20px rgba(0, 0, 0, .1);
+      border: none;
+      height: 505px;
+      transform: translateY(-1%);
+    }
     &>* {
       margin-bottom: 20px;
     } 
@@ -63,5 +72,9 @@ export default {
   h5 {
     font-size: 2rem;
     color: black;
+  }
+
+  hr {
+    border-top: 1px solid $border-primary;
   }
 </style>

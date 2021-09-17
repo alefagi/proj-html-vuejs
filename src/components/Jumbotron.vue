@@ -1,5 +1,6 @@
 <template>
   <section class="jumbotron">
+    <a href="#"><i class="fas fa-cog"></i></a>
     <div class="container">
       <div class="jumbo-description w-50">
         <div>Development</div>
@@ -30,6 +31,19 @@ export default {
     height: 500px;
     display: flex;
     align-items: center;
+    position: relative;
+    &>a {
+      color: $brand-secondary;
+      width: 30px;
+      height: 30px;
+      padding: 7px;
+      background-color: white;
+      border-top-right-radius: 50px;
+      border-bottom-right-radius: 50px;
+      position: absolute;
+      left: 0;
+      top: 10%;
+    }
   }
 
   .container {

@@ -1,5 +1,5 @@
 <template>
-  <section id="features">
+  <section id="features" class="mt-80">
     <div class="container">
       <div class="section-title w-50">
         <h2>Key Features</h2>
@@ -52,10 +52,6 @@ export default {
 <style scoped lang="scss">
 @import "../assets/scss/variables.scss";
 @import "../assets/scss/sectionTitle.scss";
-
-  #features {
-    margin-top: 80px;
-  }
 
   .container {
     height: 100%;

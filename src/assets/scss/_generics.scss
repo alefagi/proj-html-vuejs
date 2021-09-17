@@ -6,6 +6,7 @@
 
 body {
   color: $text-primary;
+  font-family: 'Nunito', sans-serif;
 }
 
 .container {
@@ -21,21 +22,39 @@ img {
   width: 50%;
 }
 
+.mt-60 {
+  margin-top: 60px;
+}
+
+.mt-80 {
+  margin-top: 80px;
+}
+
 .btn {
   padding: 7px 12px;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 .btn-primary {
   color: #fff;
   background-color: $brand-secondary;
   border: 1px solid $brand-secondary;
+  transition: .3s;
+  &:hover {
+    background-color: darken($brand-secondary, 13%);
+  }
 }
 
 .btn-secondary {
   color: $brand-secondary;
   background-color: transparent;
   border: 1px solid $brand-secondary;
+  transition: .3s;
+  &:hover {
+    color: #fff;
+    background-color: $brand-secondary;
+  }
 }
 
 .card-container {

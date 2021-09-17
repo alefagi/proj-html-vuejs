@@ -1,5 +1,5 @@
 <template>
-  <section id="components">
+  <section id="components" class="mt-80">
     <div class="container">
       <div class="description w-50">
         <div class="section-title">
@@ -11,7 +11,7 @@
           <li><i class="far fa-check-circle"></i>Our Talented & Experienced Marketing Agency</li>
           <li><i class="far fa-check-circle"></i>Create your own skin to match your brand</li>
         </ul>
-        <button class="btn btn-primary">Read More<i class="fas fa-arrow-right"></i></button>
+        <button class="btn btn-secondary">Read More<i class="fas fa-arrow-right"></i></button>
       </div>
       <div class="components-image w-50">
         <img src="../assets/img/1.png" alt="1">
@@ -29,10 +29,6 @@ export default {
 <style scoped lang="scss">
 @import "../assets/scss/variables.scss";
 @import "../assets/scss/sectionTitle.scss";
-
-  #components {
-    padding-top: 80px;
-  }
 
   .container {
     display: flex;    

@@ -54,6 +54,7 @@ export default {
         text-decoration: none;
         color: #3C4858;
         padding: 20px 20px;
+        transition: .3s;
         &:hover {
           color: $brand-secondary;
         }
@@ -74,6 +75,7 @@ export default {
       box-shadow: 1px 3px 10px rgba(0, 0, 0, .2);
       color: $brand-secondary;
       background-color: $brand-primary;
+      transition: .3s;
       &:hover {
         color: #fff;
         background-color: $brand-secondary;

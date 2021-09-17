@@ -1,5 +1,5 @@
 <template>
-  <section id="footer-top">
+  <section id="footer-top" class="mt-80">
     <div class="container">
       <div class="social">
         <div class="logo">
@@ -29,10 +29,10 @@
         <div>Write your email <span>*</span></div>
         <div class="your-email">
           <i class="far fa-envelope"></i>
-          <span>Your email:</span>
+          <span>Your email :</span>
           <input type="email" size="17">
         </div>
-        <button>Subscribe</button>
+        <button class="btn">Subscribe</button>
       </div>
     </div>
   </section>
@@ -51,7 +51,6 @@ export default {
 @import "../assets/scss/variables.scss";
 
   #footer-top {
-    margin-top: 80px;
     background-color: #202942;
     padding: 50px 0;
   }
@@ -113,10 +112,14 @@ export default {
     }
     .your-email {
       display: flex;
-      border-radius: 5px;
+      border-radius: 10px;
       background-color: #27314F;
       padding: 15px;
       margin: 15px 0;
+      span {
+        font-size: 0.9rem;
+        margin-right: 3px;
+      }
       input {
         border: none;
         margin-left: 5px;
@@ -126,12 +129,13 @@ export default {
       }
       i {
         margin-right: 12px;
+        padding-top: 2px;
       }
     }
     button {
       border-radius: 5px;
       color: $brand-secondary;
-      padding: 7px 12px;
+      padding: 14px 12px;
       background-color: #27314F;
       border: none;
       box-shadow: 1px 3px 10px rgba(233, 70, 73, .2);

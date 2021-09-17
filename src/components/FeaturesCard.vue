@@ -27,6 +27,10 @@ export default {
     border-radius: 5px;
     padding: 20px;
     margin-bottom: 20px;
+    transition: .3s;
+    &:hover {
+      transform: translateY(-5%);
+    }
   }
 
   .card-icon {

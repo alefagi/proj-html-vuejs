@@ -31,17 +31,18 @@ export default {
     border-top: 1px solid #3C4858;
     position: relative;
     &>a {
-      position: absolute;
-      right: 0;
-      bottom: 0;
-      display: inline-block;
-      width: 35px;
-      height: 35px;
+      position: fixed;
+      right: .5%;
+      bottom: 20px;
+      display: flex;
+      width: 30px;
+      height: 30px;
       color: $text-primary;
-      padding: 10px;
       background-color: $brand-secondary;
       border-radius: 5px;
-      
+      text-decoration: none;
+      justify-content: center;
+      align-items: center;  
     }
   }
 

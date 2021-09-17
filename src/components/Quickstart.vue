@@ -1,5 +1,5 @@
 <template>
-  <section id="quickstart">
+  <section id="quickstart" class="mt-60">
     <div class="container">
       <div class="section-title w-50">
         <h5>Quickstart</h5>
@@ -34,10 +34,6 @@ name: 'Quickstart',
 <style scoped lang="scss">
 @import "../assets/scss/variables.scss";
 @import "../assets/scss/sectionTitle.scss";
-
-  #quickstart {
-    padding-top: 60px;
-  }
 
   .section-title {
     margin: 0 auto;

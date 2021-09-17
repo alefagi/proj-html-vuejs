@@ -1,5 +1,5 @@
 <template>
-  <section id="subscribe">
+  <section id="subscribe" class="mt-60">
     <div class="container">
       <div class="section-title w-50">
         <h2>Want to be among the first to find out?</h2>
@@ -22,10 +22,6 @@ export default {
 <style scoped lang="scss">
 @import "../assets/scss/variables.scss";
 @import "../assets/scss/sectionTitle.scss";
-
-  #subscribe {
-    margin-top: 60px;
-  }
 
  .section-title {
     margin: 0 auto;

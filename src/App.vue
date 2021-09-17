@@ -136,6 +136,7 @@ export default {
 </script>
 
 <style lang="scss">
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 @import "./assets/scss/style.scss";
 
 
